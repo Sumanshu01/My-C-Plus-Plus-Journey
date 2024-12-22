@@ -1,0 +1,16 @@
+Fixed Size (Arrays) vs. Dynamic Size (Vectors)
+Arrays:
+Fixed size at compile time (for static arrays) or runtime (for dynamic arrays)
+Stored in contiguous memory
+No built-in bounds checking
+Cannot be resized after creation
+Don't know their own size (size must be tracked separately)
+
+Vectors:
+Dynamic size that can grow and shrink at runtime
+Stored in contiguous memory
+Provides bounds checking
+Can be resized using functions like push_back(), pop_back()
+Knows its own size (accessible via size() method)
+Automatically manages memory allocation/deallocation
+Part of the C++ Standard Template Library (STL)
